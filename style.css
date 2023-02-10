@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    overflow: scroll;
+    background-color:grey;
+    background-size: cover;
+}
+
+
+
+.h1 {
+    text-align: center;
+    font-size: 90px;
+    color: #fff685;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.profile-image {
+    width: 380px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 22px;
+}
+.img {
+    width: 350px;
+    height: 450px;
+    align-content:center;
+    border-style: solid;
+    border-width: 10px;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+      
+}
+.about-me {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 15px;
+    background-color: cornsilk;
+}
+
+.about-me h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.about-details {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.about-details h6 {
+    font-size: 18px;
+    padding: 15px 10px 10px 0px;
+}
+
+.about-details span {
+    font-weight: lighter;
+}
+
+.about-button {
+    display: flex;
+    margin-top: 10px;
+}
+
+.about-button a {
+    margin: 0px 10px;
+}
+
+.details-2 {
+    padding-left: 30px;
+}
+
+h6 {
+    display: block;
+    font-size: 0.8em;
+    margin-block-start: 0.33em;
+    margin-block-end: 0.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    width: 250px;
+    padding: 6px;
+}
+
+#skills {
+    margin-top: 95px;
+}
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+
+::-webkit-progress-value {
+    background-color: #ff7300;
+}
+
+#skill-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#skill-container ul {
+    list-style: none;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+ .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 0 0 4px  rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.feature .icon {
+    font-size: 50px;
+}
+
+.icon img{
+    width: 50%;
+}
+
+.feature p {
+    color: rgba(0,0,0,0.5);
+}
+
+.input{
+    display: block;
+    line-height: 2em ;
+    width: 350px;
+    border-radius:3px ;
+    border-color: black;
+    margin: 15px 0;
+}
+#contact form input:last-child{
+    margin: 10px;
+}
+
+
+a{
+    text-decoration: none;
+  }
+
+  a i {
+    background-color: rgb(16, 99, 16);
+    color: rgb(211, 0, 0);
+    border-radius: 55px;
+    padding: 5px;
+  }
+  .websites{
+    text-align: center;
+    margin: 20px 10px;
+  }
+
+  footer div img{
+    width: 30%;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color:cadetblue;
+
+  }
+  form{
+    text-align: center;
+  }
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: x-large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and(max-width:600px){
+    
+}
